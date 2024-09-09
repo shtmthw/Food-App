@@ -14,12 +14,12 @@ A full-stack and fully functional Food Delivery web-app built using the **MERN s
 1. Ensure all the dependencies are installed before running the project. The backend uses the default server as the database, but if you wish to rename it, simply go to `backend/config/db.js` and update the name.
    
 2. The `.env` file is required with the following information:
-   - **Database connection string**
-   - **Stripe secret key** for payment handling
+   - **A Secret App Key** For Email Transfer
+   - **Stripe secret key** For Payment Handling
 
 3. To run the project, ensure both the frontend and backend are set up and running:
-   - **Backend**: Go to the `backend` folder and run `npm install` and `npm start`.
-   - **Frontend**: Navigate to the `frontend` folder and run `npm install` and `npm start`.
+   - **Backend**: Go to the `backend` folder and run `npm run server` will only work if all the dependencies are correct.
+   - **Frontend**: Navigate to the `frontend` folder and run `npm run dev`.
 
 ## Contact
 
